@@ -1,11 +1,14 @@
 import promptSync from 'prompt-sync';
 const prompt = require('prompt-sync')();
+
+//Task: Create a Program to Calculate Student Grades
+
 //Taking prompt from User.
 let englishMarks : number = parseInt(prompt("What is Your English Marks ? \n")); 
-let mathsMarks   : number = parseInt(prompt("What is Your Maths   Marks ? \n")); 
-let urduMarks    : number = parseInt(prompt("What is Your Maths   Marks ? \n")); 
-let scieneMarks  : number = parseInt(prompt("What is Your Maths   Marks ? \n")); 
-let pakstdMarks  : number = parseInt(prompt("What is Your Maths   Marks ? \n")); 
+let mathsMarks   : number = parseInt(prompt("What is Your Maths Marks ? \n")); 
+let urduMarks    : number = parseInt(prompt("What is Your Urdu Marks ? \n")); 
+let scieneMarks  : number = parseInt(prompt("What is Your Science Marks ? \n")); 
+let pakstdMarks  : number = parseInt(prompt("What is Your PakistanStudies Marks ? \n")); 
 
 // Calculating Avg Marks 
 let avgMarks  : number =(englishMarks+mathsMarks+urduMarks+scieneMarks+pakstdMarks)/5; 
@@ -22,4 +25,5 @@ if(avgMarks > 80){
 }else{
     console.log(`Your Grade is "F",Marks ${avgMarks}`);
 }
+
 

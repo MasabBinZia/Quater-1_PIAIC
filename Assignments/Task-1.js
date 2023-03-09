@@ -1,12 +1,13 @@
 "use strict";
 exports.__esModule = true;
 var prompt = require('prompt-sync')();
+//Task: Create a Program to Calculate Student Grades
 //Taking prompt from User.
 var englishMarks = parseInt(prompt("What is Your English Marks ? \n"));
-var mathsMarks = parseInt(prompt("What is Your Maths   Marks ? \n"));
-var urduMarks = parseInt(prompt("What is Your Maths   Marks ? \n"));
-var scieneMarks = parseInt(prompt("What is Your Maths   Marks ? \n"));
-var pakstdMarks = parseInt(prompt("What is Your Maths   Marks ? \n"));
+var mathsMarks = parseInt(prompt("What is Your Maths Marks ? \n"));
+var urduMarks = parseInt(prompt("What is Your Urdu Marks ? \n"));
+var scieneMarks = parseInt(prompt("What is Your Science Marks ? \n"));
+var pakstdMarks = parseInt(prompt("What is Your PakistanStudies Marks ? \n"));
 // Calculating Avg Marks 
 var avgMarks = (englishMarks + mathsMarks + urduMarks + scieneMarks + pakstdMarks) / 5;
 //Conditions for Grading according to the avgMarks
