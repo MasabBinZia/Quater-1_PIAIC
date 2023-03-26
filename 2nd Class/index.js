@@ -1,6 +1,6 @@
 console.log("Hello World");
 // Variables 
-var firstName = "Masab";
-var phNumber = 09077334555;
+let firstName = "Masab";
+let phNumber = 5255568325;
 console.log(firstName);
 console.log(phNumber);

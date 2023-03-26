@@ -1,6 +1,5 @@
 import promptSync from 'prompt-sync';
-const prompt = require('prompt-sync')();
-
+let prompt = promptSync();
 //Task: Create a Program to Calculate Student Grades
 
 //Taking prompt from User.

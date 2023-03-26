@@ -1,5 +1,5 @@
 import promptSync from 'prompt-sync';
-const prompt = require('prompt-sync')();
+let prompt = promptSync();
 
 
 //Task: Create a Function to Determine the Discount Amount for a Product

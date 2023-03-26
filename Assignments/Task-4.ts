@@ -1,5 +1,5 @@
 import promptSync from 'prompt-sync';
-const prompt = require('prompt-sync')();
+let prompt = promptSync();
 
 //Task: Create a Function to Calculate the Factorial of a Number
 let cal_Factorial=(num: number):number => {
