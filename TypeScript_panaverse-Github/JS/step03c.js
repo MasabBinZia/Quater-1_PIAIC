@@ -1,7 +1,5 @@
-"use strict";
-exports.__esModule = true;
-var inquirer_1 = require("inquirer");
-var answers = await inquirer_1["default"].prompt([{
+import inquirer from "inquirer";
+let answers = await inquirer.prompt([{
         name: "age",
         type: "number",
         message: "Enter your Age:"

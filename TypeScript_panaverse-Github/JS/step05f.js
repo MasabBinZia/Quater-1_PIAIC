@@ -1,5 +1,5 @@
 // Any
-var myval;
+let myval;
 myval = true; // OK
 myval = 42; // OK
 myval = "hey!"; // OK
@@ -8,9 +8,9 @@ myval = {}; // OK
 myval = Math.random; // OK
 myval = null; // OK
 myval = undefined; // OK
-myval = function () { console.log('Hey again!'); }; // OK
+myval = () => { console.log('Hey again!'); }; // OK
 //Unknown
-var value;
+let value;
 value = true; // OK
 value = 42; // OK
 value = "hey!"; // OK
@@ -19,11 +19,11 @@ value = {}; // OK
 value = Math.random; // OK
 value = null; // OK
 value = undefined; // OK
-value = function () { console.log('Hey again!'); }; // OK
+value = () => { console.log('Hey again!'); }; // OK
 // Assigning a value of type unknown to variables of other types
-var val;
-var val1 = val; // OK
-var val2 = val; // OK
+let val;
+const val1 = val; // OK
+const val2 = val; // OK
 // const val3: boolean = val; // Will throw error
 // const val4: number = val; // Will throw error
 // const val5: string = val; // Will throw error

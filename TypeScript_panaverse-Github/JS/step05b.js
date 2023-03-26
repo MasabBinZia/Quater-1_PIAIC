@@ -1,15 +1,15 @@
 // anonymous
-var teacher = {
+let teacher = {
     name: "Zeeshan",
     exp: 10
 };
-var student = {
+let student = {
     name: "Masab",
     age: 21
 };
-console.log("Student Name - ".concat(student["name"]));
-console.log("Student Age -".concat(student.age));
-var storeManager = {
+console.log(`Student Name - ${student["name"]}`);
+console.log(`Student Age -${student.age}`);
+let storeManager = {
     name: "Bilal"
 };
-console.log("Manager Name - ".concat(storeManager["name"]));
+console.log(`Store Manager Name - ${storeManager["name"]}`);

@@ -1,7 +1,3 @@
-"use strict";
-exports.__esModule = true;
-exports.c = exports.b = void 0;
-var b = 10;
-exports.b = b;
-var c = 2;
-exports.c = c;
+const b = 10;
+const c = 2;
+export { b, c };

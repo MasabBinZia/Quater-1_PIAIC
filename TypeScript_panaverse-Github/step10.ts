@@ -1,7 +1,7 @@
 //Tuple types have the advantage that you can accurately describe the type of an array of mixed types
 
-var tuple: [number, string] = [1, "bob"];
-var secondElement = tuple[1];  // secondElement now has type 'string' 
+let tuple: [number, string] = [1, "bob"];
+let secondElement = tuple[1];  // secondElement now has type 'string' 
 
 // Typically an array contains zero to many objects of a
 // single type. TypeScript has special analysis around

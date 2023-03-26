@@ -1,12 +1,12 @@
 //strongly typed syntax
-var a = "Pakistan";
+let a = "Pakistan";
 a = "USA";
-var b = 9;
-var c = true;
+let b = 9;
+let c = true;
 console.log(a);
 //type inference
-var e = "USA";
-var f = 10.9;
+let e = "USA";
+let f = 10.9;
 f = 22;
-var g = false;
+let g = false;
 g = true;

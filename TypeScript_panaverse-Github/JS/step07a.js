@@ -5,7 +5,7 @@ var Color;
     Color[Color["Blue"] = 2] = "Blue";
 })(Color || (Color = {}));
 ; //starts with 0
-var c = Color.Green;
+let c = Color.Green;
 var Color1;
 (function (Color1) {
     Color1[Color1["Red"] = 1] = "Red";
@@ -13,7 +13,7 @@ var Color1;
     Color1[Color1["Blue"] = 3] = "Blue";
 })(Color1 || (Color1 = {}));
 ;
-var colorName = Color1[2];
+let colorName = Color1[2];
 console.log(colorName);
 var Color2;
 (function (Color2) {
@@ -22,5 +22,5 @@ var Color2;
     Color2[Color2["Blue"] = 4] = "Blue";
 })(Color2 || (Color2 = {}));
 ; //can assign values to all
-var colorIndex = Color2["Blue"];
+let colorIndex = Color2["Blue"];
 console.log(colorIndex);

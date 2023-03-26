@@ -1,3 +1,3 @@
-var myname = "Zia";
+let myname = "Zia";
 console.log(myname.length);
 console.log(myname.length);

@@ -1,10 +1,10 @@
 // These two interfaces are completely
 // transferrable in a structural type system:
-var ball = { diameter: 10 };
-var sphere = { diameter: 20 };
+let ball = { diameter: 10 };
+let sphere = { diameter: 20 };
 sphere = ball;
 ball = sphere;
-var tube = { diameter: 12, length: 3 };
+let tube = { diameter: 12, length: 3 };
 //tube = ball;//Error
 ball = tube;
 // Because a ball does not have a length, then it cannot be
@@ -19,13 +19,13 @@ ball = tube;
 //it is an error for the object literal to specify properties that don't exist in the target type.
 //The rationale for the below two errors is that since the fresh types of the object literals are 
 //never captured in variables, static knowledge of the excess or misspelled properties should not be silently lost. 
-var myType = { name: "Zia", id: 1 };
+let myType = { name: "Zia", id: 1 };
 //Case 1
 myType = { id: 2, name: "Tom" }; //Case 1: can only assign a type which has the the same properties
 //Object literals can only have properties that exist in contextual type
 //=================================================
 //Case when STALE object literal are assigned to a variable 
-var myType2 = { id: 2, name: "Tom" };
+let myType2 = { id: 2, name: "Tom" };
 //Case 1
 myType = myType2; //Case 1: can only assign a type which has the the same properties, rule same for fresh and stale object
 //Case 2b

@@ -1,4 +1,2 @@
-"use strict";
-exports.__esModule = true;
-var a = 5;
-exports["default"] = a;
+let a = 5;
+export default a;

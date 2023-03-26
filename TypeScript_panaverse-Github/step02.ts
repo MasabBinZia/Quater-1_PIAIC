@@ -13,4 +13,4 @@ else {
 	let z = "string";
 	//use z
 }
-console.log("let: " + z);// Error: z is not defined in this scope
+// console.log("let: " + z);// Error: z is not defined in this scope
